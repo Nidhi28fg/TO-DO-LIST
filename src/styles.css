@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.dov {
+  width: 80%;
+  height: auto;
+  border: 2px solid blue;
+  border-radius: 8px 100px;
+  padding: 40px;
+  margin-top: 20px;
+  margin-left: 2px;
+  margin-right: 1px;
+  background-color: white;
+  position: relative;
+}
+
+form {
+  width: 400px;
+  height: 325px;
+  margin: auto;
+  position: relative;
+}
+
+ul {
+  width: 400px;
+  height: 10px;
+  margin: auto;
+  list-style-type: none;
+  position: relative;
+  left: -30px;
+  list-style: none;
+}
+
+input {
+  width: 76%;
+  margin: auto;
+  height: 40px;
+  border-radius: 20px;
+  border-color: blue;
+}
+
+button {
+  width: 20%; /* Corrected to include a semicolon */
+  height: 40px; /* Added height property */
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  right: 2px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+  width: auto;
+  border-radius: 20px;
+}
+span {
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+}
+
+.edit {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+}
+
+.activedata {
+  text-decoration: line-through;
+  color: red;
+  background-color: yellow;
+}
+.todolistt {
+  width: 600px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 100px 10px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: blue;
+}
